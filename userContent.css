@@ -20,3 +20,8 @@
         display: none !important;
     }
 }
+
+/* remove content from 'new private tab' page */
+html.private body * {
+	display: none;
+}
