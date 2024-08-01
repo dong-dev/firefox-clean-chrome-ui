@@ -1,0 +1,26 @@
+/* Required flag: 
+	- toolkit.legacyUserProfileCustomizations.stylesheets = true 
+*/
+
+/* remove top left space in windowed mode */
+.titlebar-spacer {
+	display:none !important;
+}
+
+/* remove extension button in top right corner */
+#unified-extensions-button {
+	display:none !important;
+}
+
+/* remove login alert */
+#appMenu-popup #appMenu-fxa-status2 {
+	display:none !important;
+}
+#appMenu-popup .proton-zap#appMenu-fxa-separator {
+	display: none !important;
+}
+
+/* remove facebook container extension icon and label */
+#userContext-icons[tooltiptext="Facebook"] {
+	display: none !important;
+}

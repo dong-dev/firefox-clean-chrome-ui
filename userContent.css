@@ -1,0 +1,22 @@
+
+
+@-moz-document url-prefix("about:preferences") {
+
+    /* remove sync setting */
+    #category-sync {
+        display: none !important;
+    }
+
+    /* remove more from mozilla setting */
+    #category-more-from-mozilla {
+        display: none !important;
+    }
+
+    /* remove is default browser emotion */
+    #isDefaultPane {
+        display: none !important;
+    }
+    #setDefaultPane {
+        display: none !important;
+    }
+}
