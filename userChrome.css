@@ -2,6 +2,19 @@
 	- toolkit.legacyUserProfileCustomizations.stylesheets = true 
 */
 
+@media (-moz-gtk-theme-family: adwaita) or (-moz-gtk-theme-family: yaru) {
+    .titlebar-button > .toolbarbutton-icon {
+        background-color: color-mix(in srgb, currentcolor 0%, transparent) !important;
+    }
+}
+
+@media (-moz-gtk-theme-family: adwaita) or (-moz-gtk-theme-family: yaru) {
+    .titlebar-button:hover > .toolbarbutton-icon {
+        background-color: color-mix(in srgb, currentcolor 10%, transparent) !important;
+    }
+}
+
+
 /* remove top left space in windowed mode */
 .titlebar-spacer {
 	display:none !important;
